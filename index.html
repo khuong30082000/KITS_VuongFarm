@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KITS IT School</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="images/favicon.png"
+      sizes="512x512"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <a id="scroll-top"></a>
+    <div class="wrapper">
+      <header class="header" id="#home">
+        <div class="container">
+          <div class="header-container">
+            <ul class="menu">
+              <li class="menu-item-logo">
+                <a href="#banner" class="menu-link-logo">KhuongFarm</a>
+              </li>
+              <li class="menu-item">
+                <a href="#banner" class="menu-link">Banner</a>
+              </li>
+              <li class="menu-item">
+                <a href="#bestselling" class="menu-link">BestSelling</a>
+              </li>
+              <li class="menu-item">
+                <a href="#about" class="menu-link">About</a>
+              </li>
+              <li class="menu-item">
+                <a href="#category" class="menu-link">Categories</a>
+              </li>
+              <li class="menu-item">
+                <a href="#customer" class="menu-link">Customers</a>
+              </li>
+              <li class="menu-item">
+                <a href="#contact" class="menu-link">Contact</a>
+              </li>
+            </ul>
+            <div class="menu-toggle">
+              <span></span><span></span><span></span>
+            </div>
+            <ul class="menu-icon">
+              <li class="menu-icon-item">
+                <img
+                  src="images/giohang.svg"
+                  alt=""
+                  srcset=""
+                  class="menu-icon-img"
+                />
+                <div class="tooltip">Tôi là xe đẩy</div>
+              </li>
+              <li class="menu-icon-item">
+                <img src="images/user.svg" alt="" srcset="" />
+                <div class="tooltip">Tôi là người dùng</div>
+              </li>
+              <li class="menu-icon-item">
+                <img src="images/Line 1.svg" alt="" srcset="" />
+                <div class="tooltip">Tôi là dấu xẹc</div>
+              </li>
+              <li class="menu-icon-item">
+                <img src="images/3daugach.svg" alt="" srcset="" />
+                <div class="tooltip">Tôi là 3 dấu</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <section class="banner" id="banner">
+          <div class="banner-container">
+            <div class="banner-content">
+              <h1 class="banner-heading">Buy your dream plants</h1>
+              <div class="banner-title">
+                <div class="banner-title-plant">
+                  <div class="banner-title-plant-number">50+</div>
+                  <div class="banner-title-plant-text">Plant Species</div>
+                </div>
+                <img src="images/Line 2.svg" alt="" srcset="" />
+                <div class="banner-title-customer">
+                  <div class="banner-title-plant-number">100+</div>
+                  <div class="banner-title-plant-text">Customers</div>
+                </div>
+              </div>
+              <div class="banner-search">
+                <input
+                  type="text"
+                  class="banner-input"
+                  placeholder="What are you looking for?"
+                />
+                <div class="banner-box">
+                  <img src="images/search.svg" alt="" srcset="" />
+                </div>
+              </div>
+            </div>
+            <div class="banner-image">
+              <img src="images/a.svg" set="" alt="" />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="bestselling" id="bestselling">
+        <div class="container">
+          <div class="bestselling-container">
+            <div class="bestselling-left">
+              <h1 class="bestselling-title">Best Selling Plants</h1>
+              <div class="bestselling-desc">
+                Easiest way to healthy life by buying your favorite plants
+              </div>
+              <button class="btn btn-more">See more</button>
+            </div>
+            <div class="bestselling-right">
+              <!-- <div class="bestselling-img">
+                <img src="images/anh1.svg" alt="" srcset="" />
+                <div class="bestselling-right-text">Natural Plants</div>
+                <div class="bestselling-right-price">140.000đ</div>
+              </div>
+              <div class="bestselling-img">
+                <img src="images/anh2.svg" alt="" srcset="" />
+                <div class="bestselling-right-text">Artificial Plants</div>
+                <div class="bestselling-right-price">900.000đ</div>
+              </div>
+              <div class="bestselling-img">
+                <img src="images/anh3.svg" alt="" srcset="" />
+                <div class="bestselling-right-text">Artificial Plants</div>
+                <div class="bestselling-right-price">35.000đ</div>
+              </div>
+              <div class="bestselling-img">
+                <img src="images/anh4.svg" alt="" srcset="" />
+                <div class="bestselling-right-text">Natural Plants</div>
+                <div class="bestselling-right-price">140.000đ</div>
+              </div>
+              <div class="bestselling-img">
+                <img src="images/anh5.svg" alt="" srcset="" />
+                <div class="bestselling-right-text">Artificial Plants</div>
+                <div class="bestselling-right-price">900.000đ</div>
+              </div>
+              <div class="bestselling-img">
+                <img src="images/anh6.svg" alt="" srcset="" />
+                <div class="bestselling-right-text">Artificial Plants</div>
+                <div class="bestselling-right-price">140.000</div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="main-title">About Us</div>
+          <div class="main-desc">
+            Order now and appreciate the beauty of nature
+          </div>
+          <div class="about-list">
+            <div class="about-item">
+              <div class="about-item-box">
+                <img src="images/iconabout.svg" alt="" srcset="" />
+              </div>
+              <div class="about-item-title">Large Assortment</div>
+              <div class="about-item-desc">
+                we offer many different types of products with fewer variations
+                in each category.
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="about-item-box">
+                <img src="images/iconabout.svg" alt="" srcset="" />
+              </div>
+              <div class="about-item-title">Large Assortment</div>
+              <div class="about-item-desc">
+                we offer many different types of products with fewer variations
+                in each category.
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="about-item-box">
+                <img src="images/iconabout.svg" alt="" srcset="" />
+              </div>
+              <div class="about-item-title">Large Assortment</div>
+              <div class="about-item-desc">
+                we offer many different types of products with fewer variations
+                in each category.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="main-title">Categories</div>
+        <div class="main-desc">Find what you are looking for</div>
+      </div>
+
+      <section class="category" id="category">
+        <div class="container">
+          <div class="category-list">
+            <div class="category-item text-center translate-down">
+              <img
+                src="images/category1.svg"
+                alt=""
+                srcset=""
+                class="child-1"
+              />
+              <div class="category-item-title">Large Assortment</div>
+            </div>
+            <div class="category-item text-center translate-up translate72">
+              <img
+                src="images/category2.svg"
+                alt=""
+                srcset=""
+                class="child-2"
+              />
+              <div class="category-item-title">Large Assortment</div>
+              <div class="category-item-desc">
+                Horem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <button class="btn btn-exlore">Explore</button>
+            </div>
+            <div class="category-item text-center translate-down">
+              <img
+                src="images/category3.svg"
+                alt=""
+                srcset=""
+                class="child-3"
+              />
+              <div class="category-item-title">Large Assortment</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="title-customer">What customers say about VuongFarm?</div>
+      </div>
+
+      <section class="customer" id="customer">
+        <div class="container">
+          <div class="customer-list">
+            <div class="customer-item">
+              <div class="customer-item-title">
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </div>
+              <div class="customer-item-content">
+                <div class="customer-item-bottom">
+                  <img src="images/Group 9.svg" alt="" srcset="" />
+                  <div class="customer-item-name">
+                    <div class="customer-item-heading">John Doe</div>
+                    <div class="customer-item-desc">Youtuber</div>
+                  </div>
+                </div>
+                <div class="customer-item-start">4.5</div>
+              </div>
+            </div>
+            <div class="customer-item">
+              <div class="customer-item-title">
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </div>
+              <div class="customer-item-content">
+                <div class="customer-item-bottom">
+                  <img src="images/Group 10.svg" alt="" srcset="" />
+                  <div class="customer-item-name">
+                    <div class="customer-item-heading">John Doe</div>
+                    <div class="customer-item-desc">Youtuber</div>
+                  </div>
+                </div>
+                <div class="customer-item-start">4.5</div>
+              </div>
+            </div>
+            <div class="customer-item">
+              <div class="customer-item-title">
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </div>
+              <div class="customer-item-content">
+                <div class="customer-item-bottom">
+                  <img src="images/Group 9.svg" alt="" srcset="" />
+                  <div class="customer-item-name">
+                    <div class="customer-item-heading">John Doe</div>
+                    <div class="customer-item-desc">Youtuber</div>
+                  </div>
+                </div>
+                <div class="customer-item-start">4.5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer" id="contact">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-left">
+              <div class="footer-title">GREENMIND</div>
+              <p class="footer-desc">We help you find your dream plant</p>
+              <div class="social">
+                <a href="#" class="social-item">
+                  <img src="images/facebook.svg" alt="" />
+                </a>
+                <a href="#" class="social-item">
+                  <img src="images/instagram.svg" alt="" />
+                </a>
+                <a href="#" class="social-item">
+                  <img src="images/twiter.svg" alt="" />
+                </a>
+              </div>
+              <p class="copyright">
+                2023 all Right Reserved Term of use LowBoy
+              </p>
+            </div>
+            <div class="footer-right">
+              <div class="footer-column">
+                <h3 class="footer-heading">Information</h3>
+                <ul class="footer-links">
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h3 class="footer-heading">Engage</h3>
+                <ul class="footer-links">
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h3 class="footer-heading">Company</h3>
+                <ul class="footer-links">
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#" class="footer-link">Download</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
